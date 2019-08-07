@@ -25462,7 +25462,10 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="">
+<attribute name="DESIGNER" value="Alex Wende"/>
+<attribute name="REV" value="v10"/>
+</part>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
@@ -25591,8 +25594,6 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <wire x1="167.64" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="104.14" width="0.1524" layer="97" style="longdash"/>
 <wire x1="147.32" y1="104.14" x2="147.32" y2="137.16" width="0.1524" layer="97" style="longdash"/>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector" ratio="15">v10</text>
-<text x="166.116" y="11.43" size="2.54" layer="94" font="vector" ratio="15">Alex Wende</text>
 <wire x1="147.32" y1="104.14" x2="248.92" y2="104.14" width="0.1524" layer="97" style="longdash"/>
 <text x="150.114" y="133.096" size="2.54" layer="94" font="vector" ratio="15">SWD Program/Debug Interface</text>
 <text x="149.86" y="99.06" size="2.54" layer="94" font="vector" ratio="15">Headers</text>
@@ -25612,6 +25613,8 @@ The flexibility of the Artemis module starts with our [Arduino core](https://git
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="162.814" y="17.78" size="2.7432" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
+<attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
 <instance part="GND13" gate="1" x="96.52" y="147.32" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="96.52" y="147.066" size="1.778" layer="96" font="vector" rot="MR0" align="top-center"/>

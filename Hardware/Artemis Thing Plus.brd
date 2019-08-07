@@ -24,7 +24,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -46,8 +46,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="61" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -9835,6 +9835,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="buzzard_labels (13)">
+<packages>
+<package name="#0">
+<rectangle x1="1.86" y1="0.27" x2="1.92" y2="0.33" layer="21"/>
+<rectangle x1="1.74" y1="0.21" x2="2.04" y2="0.27" layer="21"/>
+<rectangle x1="1.74" y1="0.15" x2="2.04" y2="0.21" layer="21"/>
+<rectangle x1="1.68" y1="0.09" x2="2.1" y2="0.15" layer="21"/>
+<rectangle x1="1.68" y1="0.03" x2="2.1" y2="0.09" layer="21"/>
+<rectangle x1="1.68" y1="-0.03" x2="2.1" y2="0.03" layer="21"/>
+<rectangle x1="1.44" y1="-0.09" x2="2.34" y2="-0.03" layer="21"/>
+<rectangle x1="1.38" y1="-0.15" x2="2.4" y2="-0.09" layer="21"/>
+<rectangle x1="1.38" y1="-0.21" x2="2.4" y2="-0.15" layer="21"/>
+<rectangle x1="1.38" y1="-0.27" x2="2.4" y2="-0.21" layer="21"/>
+<rectangle x1="1.38" y1="-0.33" x2="2.4" y2="-0.27" layer="21"/>
+<rectangle x1="1.38" y1="-0.39" x2="2.4" y2="-0.33" layer="21"/>
+<rectangle x1="1.68" y1="-0.45" x2="2.1" y2="-0.39" layer="21"/>
+<rectangle x1="1.68" y1="-0.51" x2="2.1" y2="-0.45" layer="21"/>
+<rectangle x1="1.68" y1="-0.57" x2="2.1" y2="-0.51" layer="21"/>
+<rectangle x1="1.68" y1="-0.63" x2="2.1" y2="-0.57" layer="21"/>
+<rectangle x1="1.74" y1="-0.69" x2="2.04" y2="-0.63" layer="21"/>
+<rectangle x1="1.8" y1="-0.75" x2="1.98" y2="-0.69" layer="21"/>
+</package>
+<package name="#1">
+<rectangle x1="1.5" y1="-0.21" x2="2.22" y2="-0.15" layer="21"/>
+<rectangle x1="1.44" y1="-0.27" x2="2.22" y2="-0.21" layer="21"/>
+<rectangle x1="1.44" y1="-0.33" x2="2.28" y2="-0.27" layer="21"/>
+<rectangle x1="1.44" y1="-0.39" x2="2.28" y2="-0.33" layer="21"/>
+<rectangle x1="1.44" y1="-0.45" x2="2.28" y2="-0.39" layer="21"/>
+<rectangle x1="1.44" y1="-0.51" x2="2.22" y2="-0.45" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10149,8 +10181,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="5.207" y="0.635" smashed="yes" rot="MR0"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="5.207" y="0.635" smashed="yes"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-12.7" y="-20.32" smashed="yes">
-<attribute name="DESIGNER" value="" x="67.31" y="-31.75" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="67.31" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="DESIGNER" value="Alex Wende" x="67.31" y="-31.75" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="v10" x="67.31" y="-31.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-12.7" y="-20.32" smashed="yes">
 <attribute name="DESIGNER" value="Nobody" x="3.81" y="-72.39" size="1.778" layer="27" display="off"/>
@@ -10361,6 +10393,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$1" library="buzzard_labels (11)" package="160" value="" x="1.7145" y="52.07" smashed="yes"/>
 <element name="U$2" library="buzzard_labels (11)" package="171" value="" x="1.7145" y="49.53" smashed="yes"/>
 <element name="U$29" library="buzzard_labels (11)" package="184" value="" x="8.382" y="35.1155" smashed="yes" rot="R90"/>
+<element name="U$67" library="buzzard_labels (13)" package="#0" value="" x="8.4455" y="20.066" smashed="yes"/>
+<element name="U$68" library="buzzard_labels (13)" package="#1" value="" x="8.4455" y="16.129" smashed="yes"/>
 </elements>
 <signals>
 <signal name="V_USB">
