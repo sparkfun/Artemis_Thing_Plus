@@ -1,9 +1,10 @@
 SparkFun Artemis Thing Plus
 ========================================
 
-![SparkFun Artemis Thing Plus](https://cdn.sparkfun.com/assets/learn_tutorials/9/2/8/15574-SparkFun_Thing_Plus_-_Artemis-CloseUp.jpg)
+![SparkFun Artemis Thing Plus](https://cdn.sparkfun.com/assets/parts/1/4/1/7/0/15574-SparkFun_Thing_Plus_-_Artemis-02.jpg)
 
 [*SparkFun Artemis Thing Plus (15574)*](https://www.sparkfun.com/products/15574)
+
 
 If you are looking for a board that (almost) does it all, look no further! The SparkFun Artemis Thing Plus takes our popular Thing Plus footprint and adds in the powerful Artemis module for ultimate functionality. Fully compatible with SparkFun's Arduino core, the modern USB-C connector makes it easy to program under the Arduino IDE. We've also exposed the JTAG connector for more advanced users who prefer to use the power and speed of professional tools.
 
