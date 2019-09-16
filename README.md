@@ -1,7 +1,7 @@
 SparkFun Artemis Thing Plus
 ========================================
 
-![SparkFun Artemis Thing Plus](https://cdn.sparkfun.com/assets/parts/1/4/1/7/0/15574-SparkFun_Thing_Plus_-_Artemis-02.jpg)
+![SparkFun Artemis Thing Plus](https://cdn.sparkfun.com/assets/learn_tutorials/9/2/8/15574-SparkFun_Thing_Plus_-_Artemis-CloseUp.jpg)
 
 [*SparkFun Artemis Thing Plus (15574)*](https://www.sparkfun.com/products/15574)
 
