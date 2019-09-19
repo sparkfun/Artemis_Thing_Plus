@@ -5,12 +5,11 @@ SparkFun Artemis Thing Plus
 
 [*SparkFun Artemis Thing Plus (15574)*](https://www.sparkfun.com/products/15574)
 
-
-If you are looking for a board that (almost) does it all, look no further! The SparkFun Artemis Thing Plus takes our popular Thing Plus footprint and adds in the powerful Artemis module for ultimate functionality. Fully compatible with SparkFun's Arduino core, the modern USB-C connector makes it easy to program under the Arduino IDE. We've also exposed the JTAG connector for more advanced users who prefer to use the power and speed of professional tools.
+If you are looking for a board that (almost) does it all, look no further! The SparkFun Artemis Thing Plus takes our popular Thing Plus footprint and adds in the powerful Artemis module for ultimate functionality. Fully compatible with SparkFun's Arduino core, the modern USB-C connector makes it easy to program under the Arduino IDE but for more advanced users who prefer to use the power and speed of professional tools, we've also exposed the JTAG connector. To make the Thing Plus even easier to use, we've moved a few pins around to make the board Feather compatible and it utilizes our handy Qwiic Connect System which means no soldering or shields are required to connect it to the rest of your system!
 
 With 1MB flash and 384k RAM you'll have plenty of room for your sketches. The on-board Artemis module runs at 48MHz with a 96MHz turbo mode available and with Bluetooth to boot! We've added a digital MEMS microphone for folks wanting to experiment with always-on voice commands with TensorFlow and machine learning. The addition of the Qwiic connector opens up plug-and-play I<sup>2</sup>C functionality with our wide array of Qwiic boards. 
 
-With so much functionality, the SparkFun Artemis Thing Plus is an ideal choice for your Internet of Things project. We've even made it Huzzah32 Feather-compatible so you can take advantage of all those lovely shields out there! If you need more Apollo3 functionality or a more concise form factor, check out our Artemis ATP or Artemis Nano.
+With so much functionality, the SparkFun Artemis Thing Plus is an ideal choice for your Internet of Things project. We've even made it Feather-compatible so you can take advantage of a shield option in case you didn't want to use our Qwiic Connect System! If you need more Apollo3 functionality or a more concise form factor, check out our Artemis ATP or Artemis Nano.
 
 Repository Contents
 -------------------
